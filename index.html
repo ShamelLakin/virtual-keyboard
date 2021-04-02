@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Virtual Keyboard</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/favicon.ico">
-    <link rel="stylesheet" href="/assets/dcode.css">
-    <link rel="stylesheet" href="keyboard/Keyboard.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-    <h1>Virtual Keyboard </h1>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.ico" />
+    <link rel="stylesheet" href="/assets/dcode.css" />
+    <link rel="stylesheet" href="keyboard/Keyboard.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Virtual Keyboard</h1>
     <h3>Features</h3>
     <ul>
-        <li>Easy to intergrate</li>
-        <li>Responsive</li>
-        <li>Vanilla JS (<strong>No Libraries Used</strong>)</li>
+      <li>Easy to intergrate</li>
+      <li>Responsive</li>
+      <li>Vanilla JS (<strong>No Libraries Used</strong>)</li>
     </ul>
-    <textarea styles="position: absolute: top: 130px; right: 30px; width: 300px"></textarea>
+    <textarea
+      style="position: absolute; top: 130px; right: 30px; width: 300px"
+    ></textarea>
+
+    <div class="keyboard">
+      <div class="keyboard__keys">
+        <button type="button" class="keyboard__key">a</button>
+        <button type="button" class="keyboard__key">
+          <i class="material-icons">backspace</i>
+        </button>
+      </div>
+    </div>
+
     <script src="keyboard/Keyboard.js"></script>
-</body>
+  </body>
 </html>
