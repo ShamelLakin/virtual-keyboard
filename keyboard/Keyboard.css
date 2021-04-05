@@ -18,7 +18,7 @@
 }
 
 .use-keyboard-input {
-  display: block;
+  /* display: block; */
   width: 95%;
   line-height: 44px;
   max-width: 1050px;
@@ -44,6 +44,7 @@ body {
   flex-direction: column;
   align-items: left;
   background: rgba(145, 144, 144, 0.1);
+  font-family: "Rubik", sans-serif;
 }
 
 
