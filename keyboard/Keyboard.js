@@ -28,10 +28,16 @@ const Keyboard = {
 
     // Add to DOM
     this.elements.main.appendChild(this.elements.keysContainer)
+    document.body.appendChild(this.elements.main);
   },
   // underscore tells us it's a private method
   // loading all the html for the keys
-  _createKeys() {},
+  _createKeys() {
+      const fragment = document.createDocumentFragment();
+      const keyLayout = [
+
+      ];
+  },
   // triggers the eventhandlers
   _triggerEvent(handlerName) {
     console.log("Event Triggered Name: " + handlerName);
