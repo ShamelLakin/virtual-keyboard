@@ -17,12 +17,12 @@
   box-shadow: 4px 4px 6px #7c7c7c, -5px -5px 10px #ffffff;
 }
 
-body {
+/* body {
   display: flex;
   flex-direction: column;
   align-items: left;
   background: rgba(145, 144, 144, 0.1);
-}
+} */
 
 
 .keyboard--hidden {
