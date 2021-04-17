@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&family=Rubik:wght@300;400&display=swap");
+
 .keyboard {
   position: fixed;
   left: 0;
@@ -107,4 +110,41 @@ body {
 
 .keyboard__key--dark {
   background: rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 768px) {
+  .input-area {
+    width: 95%;
+    margin: auto 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+
+  .keyboard {
+    width: 95%;
+    row-gap: 4px;
+    padding: 8px;
+  }
+
+  .keyboard__row {
+    column-gap: 4px;
+  }
+
+  .keyboard__key {
+    font-size: 10px;
+    height: 24px;
+  }
+
+  .footer {
+    width: 95%;
+    margin: auto 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .material-icons {
+    font-size: 12px;
+  }
 }
