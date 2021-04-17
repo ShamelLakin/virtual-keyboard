@@ -24,6 +24,7 @@ body {
   background: rgba(145, 144, 144, 0.1);
 }
 
+
 .keyboard--hidden {
   bottom: -100%;
 }
