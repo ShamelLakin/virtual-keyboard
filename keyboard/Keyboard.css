@@ -49,7 +49,7 @@ body {
 
 
 .keyboard--hidden {
-  bottom: -100%;
+  /* bottom: -100%; */
 }
 
 .keyboard__keys {
