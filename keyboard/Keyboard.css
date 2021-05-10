@@ -23,11 +23,11 @@
   line-height: 44px;
   max-width: 1050px;
   height: calc(100vh - 580px);
-  /* min-height: 10px; */
-  /* margin: 30px auto; */
+  min-height: 10px;
+  margin: 30px auto;
   padding: 20px;
   letter-spacing: 1.5px;
-  /* resize: none; */
+  resize: none;
   resize: vertical;
   font-family: "Rubik", sans-serif;
   font-size: 1.75rem;
