@@ -53,7 +53,7 @@ body {
 }
 
 .keyboard__keys {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .keyboard__key {
