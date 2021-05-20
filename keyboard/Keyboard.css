@@ -66,8 +66,8 @@ body {
   background: rgba(255, 255, 255, 0.2);
   color: #000;
   font-size: 1.05rem;
-  /* outline: none; */
-  cursor: pointer;
+  outline: none;
+  /* cursor: pointer; */
   display: inline-flex;
   align-items: center;
   justify-content: center;
