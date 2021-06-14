@@ -67,7 +67,7 @@ body {
   /* color: #000; */
   /* font-size: 1.05rem; */
   outline: none;
-  /* cursor: pointer; */
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
   justify-content: center;
