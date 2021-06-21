@@ -17,7 +17,7 @@ const Keyboard = {
 
   init() {
     // Create main elements
-    // this.elements.main = document.createElement("div");
+    this.elements.main = document.createElement("div");
     this.elements.keysContainer = document.createElement("div");
 
     // Setup main elements
