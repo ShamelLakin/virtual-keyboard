@@ -37,14 +37,14 @@ const Keyboard = {
     document.querySelectorAll(".use-keyboard-input").forEach((element) => {
       element.addEventListener("focus", () => {
         this.open(element.value, (currentValue) => {
-          // element.value = currentValue;
+          element.value = currentValue;
         });
       });
     });
   },
 
   _createKeys() {
-    const fragment = document.createDocumentFragment();
+    // const fragment = document.createDocumentFragment();
     const keyLayout = [
       "1",
       "2",
