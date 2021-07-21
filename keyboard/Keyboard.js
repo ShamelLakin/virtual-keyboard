@@ -36,7 +36,7 @@ const Keyboard = {
     // Automatically use keyboard for elements with .use-keyboard-input
     document.querySelectorAll(".use-keyboard-input").forEach((element) => {
       element.addEventListener("focus", () => {
-        this.open(element.value, (currentValue) => {
+        // this.open(element.value, (currentValue) => {
           element.value = currentValue;
         });
       });
@@ -44,7 +44,7 @@ const Keyboard = {
   },
 
   _createKeys() {
-    // const fragment = document.createDocumentFragment();
+    const fragment = document.createDocumentFragment();
     const keyLayout = [
       "1",
       "2",
